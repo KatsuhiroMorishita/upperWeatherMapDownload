@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+upperWeatherMapDownload
+</name>
+</assembly>
+<members>
+<member name="T:upperWeatherMapDownload.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:upperWeatherMapDownload.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:upperWeatherMapDownload.My.Resources.Resources.Culture">
+<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="M:upperWeatherMapDownload.Form1.clockCheckTimer_Tick(System.Object,System.EventArgs)">
+ <summary>
+ タイマーが起動するごとに、気象庁のHPを確認して高層天気図をダウンロードする
+ 高層天気図はUTCで0時と12時の予報が出されている。
+ 2011/9/13時点では公開タイミングは分からん。
+ 
+ [開発履歴]
+ 2011/9/13 普通の天気図をダウンロードするソフトウェアを基に高層天気図をダウンロードするプログラムを製作開始
+           今回は一つのウィンドウの中に4つのピクチャーボックスを並べたが、これ以上に拡張するならマルチウィンドウにすべきだ。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
